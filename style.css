@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+
+/* navber css */
+.navContainer{
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(14, 110, 43);
+}
+.logo{
+    width: 25%;
+}
+.logo h1{
+    font-size: 30px;
+    color: rgb(255, 249, 249);
+}
+.logo h1 span{
+    color: tomato;
+}
+.logo p{
+    color:whitesmoke;
+    font-size: 20px;
+}
+
+.navBer{ 
+    width: 60%;
+
+}
+.navBer > ul{
+    text-align: right;
+}
+.navBer > ul > li {
+    display: inline-block;
+}
+.navBer > ul > li >a{
+    font-size: 20px;
+    padding: 10px;
+    background-color: tomato;
+    color: white;
+    margin: 5px 10px;
+    padding: 5px 10px ;
+    border-radius: 5px;
+}
+.navBer > ul > li >a:hover{
+    color: rgb(196, 46, 20);
+    color: black;
+}
+
+/* navBer css end */
+.hContainer{
+display: flex;
+height: 520px;
+justify-content: center;
+padding: 10px;
+}
+.lakha{
+width: 40%;
+text-align: center;
+background-color: rgb(167, 160, 160);
+}
+.lakha h1{
+    font-size: 40px;
+    font-weight:bold;
+    padding: 10px;
+}
+.lakha p{
+    font-size: 20px;
+    text-align: justify;
+    padding: 10px;
+}
+.sImg{
+width: 45%;
+padding:0 10px;
+overflow: hidden;
+text-align: center;
+}
